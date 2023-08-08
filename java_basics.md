@@ -6,6 +6,27 @@
    Arrays.sort(arr, Collections.reverseOrder());
    ```
 
+### 2. ArrayList
+   **a. Iterating over ArrayList**
+   ```java
+   ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
+   for (int num : list) {
+       System.out.println(num);
+   }
+   ```
+
+### 4. HashMap
+   **a. Iterating over Key-Value Pairs**
+   ```java
+   HashMap<String, Integer> map = new HashMap<>();
+   map.put("A", 1);
+   map.put("B", 2);
+   for (Map.Entry<String, Integer> entry : map.entrySet()) {
+       System.out.println(entry.getKey() + ": " + entry.getValue());
+   }
+   ```
+
+
    **b. Filling an Array**
    ```java
    int[] arr = new int[5];
