@@ -15,6 +15,12 @@
    }
    ```
 
+add(E e): Adds an element to the end of the list.
+get(int index): Returns the element at the specified position in the list.
+remove(int index): Removes the element at the specified position in the list.
+size(): Returns the number of elements in the list.
+iterator(): Returns an iterator over the elements in the list in the proper sequence.
+
 ### 4. HashMap
    **a. Iterating over Key-Value Pairs**
    ```java
@@ -25,6 +31,30 @@
        System.out.println(entry.getKey() + ": " + entry.getValue());
    }
    ```
+HashMap:
+put(K key, V value): Associates the specified value with the specified key in this map.
+get(Object key): Returns the value to which the specified key is mapped, or null if the map contains no mapping for the key.
+remove(Object key): Removes the mapping for the specified key from this map if present.
+containsKey(Object key): Returns true if this map contains a mapping for the specified key.
+keySet(): Returns a Set view of the keys contained in this map.
+
+String:
+charAt(int index): Returns the char value at the specified index.
+length(): Returns the length of this string.
+substring(int beginIndex, int endIndex): Returns a substring of this string between the specified beginIndex and endIndex.
+equals(Object anObject): Compares this string to the specified object (typically another string) for equality.
+indexOf(int ch) or indexOf(String str): Returns the index within this string of the first occurrence of the specified character or substring.
+These methods are frequently used when working with these Java classes. However, it's worth noting that there are many other methods available in these classes, and the "top 5" can vary depending on specific use cases or requirements.
+
+
+
+
+Was this response better or worse?
+Better
+Worse
+Same
+
+
 
 
    **b. Filling an Array**
