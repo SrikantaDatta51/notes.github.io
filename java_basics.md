@@ -1,4 +1,3 @@
-Certainly! Here are five examples for each of the mentioned Java utilities, collections, and concepts:
 
 ### 1. Arrays
    **a. Sorting in Descending Order**
